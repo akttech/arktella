@@ -1,23 +1,58 @@
-# Next.js + Cypress
+<b><h1>A clean, beautiful and responsive Google clone website build with React(Nextjs)!</h1> </b>
 
-This example shows how to configure Cypress to work with Next.js.
+![Google-clone](https://user-images.githubusercontent.com/85189857/133093754-6e384151-3e7d-42a6-86f5-bb33c5648465.PNG)
 
-## Deploy your own
+DEMO 
+https://google-clone-code-with-onye.vercel.app/
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-cypress)
+<h1><b>Table of Contents</b></h1>
+<ul>
+  <li><a href="#Section"> Sections</a></li>
+  <li><a href="#getStarted"> Getting Started</a></li>
+   <li><a href="#HowToUse"> How To Use</a></li>
+   <li><a href="#deploy"> Deployment</a></li>
+    <li><a href="#techUse">Technologies Used</a></li>
+</ul>
+<div id="Section">
+  <h2><b> Google Clone Section</b></h2>
+  ✔️ Header <br>
+  ✔️ Search box<br>
+  ✔️ Footer<br>
+  ✔️ Search Page <br>
+  To view live example  <a href="https://google-clone-code-with-onye.vercel.app/">click here</a>
+</div>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cypress&project-name=with-cypress&repository-name=with-cypress)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
+<div id="getStarted"> 
+  <h2><b>Getting Started</b></h2>
+  <p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. <br>
+    You'll need <a href="https://git-scm.com/">Git</a> and <a href="https://nodejs.org/en/download/">Node.js</a> (which comes with <a href="https://www.npmjs.com/">npm</a>) installed on your computer.
+  </p>
+  
+</div>
+ 
 ```bash
-npx create-next-app --example with-cypress with-cypress-app
-# or
-yarn create next-app --example with-cypress with-cypress-app
-# or
-pnpm create next-app --example with-cypress with-cypress-app
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<div id="HowToUse">
+  <h2><b>How To Use</b></h2>
+  <p> From your command line, clone and run google-clone:</p>
+ 
+</div>
+
+
+```bash
+# Clone this repository
+git clone https://github.com/saadpasta/developerFolio.git
+
+# Go into the repository
+cd developerFolio
+
+# Install dependencies
+npm install
+
+# Start a local dev server
+npm start
+```

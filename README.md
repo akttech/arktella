@@ -1,9 +1,4 @@
-<b><h1>A clean, beautiful and responsive Google clone website build with React(Nextjs)!</h1> </b>
-
-![Google-clone](https://user-images.githubusercontent.com/85189857/133093754-6e384151-3e7d-42a6-86f5-bb33c5648465.PNG)
-
-DEMO 
-https://google-clone-code-with-onye.vercel.app/
+<b><h1> arktella landing page!</h1> </b>
 
 <h1><b>Table of Contents</b></h1>
 <ul>
@@ -14,12 +9,15 @@ https://google-clone-code-with-onye.vercel.app/
     <li><a href="#techUse">Technologies Used</a></li>
 </ul>
 <div id="Section">
-  <h2><b> Google Clone Section</b></h2>
+  <h2><b> Section</b></h2>
   ✔️ Header <br>
-  ✔️ Search box<br>
+  ✔️ Main <br>
+        ✔️Hero
+        ✔️What we do
+        ✔️Why choose us?
+        ✔️Contact us
   ✔️ Footer<br>
-  ✔️ Search Page <br>
-  To view live example  <a href="https://google-clone-code-with-onye.vercel.app/">click here</a>
+  To view live example  <a href="">click here</a>
 </div>
 
 <div id="getStarted"> 
@@ -54,5 +52,19 @@ cd developerFolio
 npm install
 
 # Start a local dev server
-npm start
+npm run dev
+```
+
+```bash
+# Clone this repository PNPM
+git clone https://github.com/saadpasta/developerFolio.git
+
+# Go into the repository
+cd developerFolio
+
+# Install dependencies
+pnpm
+
+# Start a local dev server
+pnpm dev
 ```

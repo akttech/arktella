@@ -43,10 +43,10 @@ git@2.17.1 or higher
 
 ```bash
 # Clone this repository
-git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/akttech/arktella.git
 
 # Go into the repository
-cd developerFolio
+cd akttech
 
 # Install dependencies
 npm install
@@ -57,10 +57,10 @@ npm run dev
 
 ```bash
 # Clone this repository PNPM
-git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/akttech/arktella.git
 
 # Go into the repository
-cd developerFolio
+cd akttech
 
 # Install dependencies
 pnpm

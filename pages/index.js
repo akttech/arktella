@@ -1,5 +1,6 @@
 import Head from "next/head";
-import { PrimaryButton, SecondaryButton } from "../components/Button";
+import Container from "../components/Container";
+import { Header, Footer, Main } from "../sections";
 
 export default function Home() {
   return (
@@ -10,15 +11,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <p>Hello Next.js</p>
-        <p className="description">This is a simple example of a Next.js App</p>
-
-        <div className="space-x-4 ml-2">
-          <SecondaryButton size="small"> Secondary</SecondaryButton>
-          <PrimaryButton size="medium">Primary</PrimaryButton>
-        </div>
-      </main>
+ <Container>
+     <Header />
+     <Main/>
+     <Footer/>
+ </Container>
+      
     </div>
   );
 }

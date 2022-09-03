@@ -9,9 +9,9 @@ const btnSize = {
 
 // button style
 const style = {
-  small: "text-sm  px-3 py-1 ",
-  medium: " text-md  px-6 py-1.5",
-  large: "",
+  small: "px-3 py-1 ",
+  medium: " px-6 py-1.5",
+  large: "px-8 py-2",
   global: " font-medium text-gray-200 shadow-lg rounded-md",
 };
 
@@ -29,7 +29,7 @@ const checkSize = (size) => {
 //Primary Button
 export const PrimaryButton = ({ children, size }) => {
   return (
-    <button className={`${checkSize(size)} ${style.global} bg-blue-500`}>
+    <button className={`${checkSize(size)} ${style.global} bg-[#3B5998]`}>
       {children}
     </button>
   );

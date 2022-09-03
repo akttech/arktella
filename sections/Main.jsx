@@ -1,10 +1,12 @@
-import React from 'react'
-import {Hero} from "./Main-Sections"
+import React from "react";
+import { Hero } from "./Main-Sections";
 
 const Main = () => {
   return (
-   <Hero/>
-  )
-}
+    <>
+      <Hero />
+    </>
+  );
+};
 
-export default Main
+export default Main;
